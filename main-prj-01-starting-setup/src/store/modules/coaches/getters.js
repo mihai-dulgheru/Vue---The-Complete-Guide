@@ -10,4 +10,9 @@ export default {
       return state.coaches.find((coach) => coach.id === coachId);
     };
   },
+  isCoach(_state, getters, _rootState, rootGetters) {
+    const coaches = getters.coaches;
+    const userId = rootGetters.userId;
+    return coaches.some((coach) => coach.id === userId);
+  },
 };
