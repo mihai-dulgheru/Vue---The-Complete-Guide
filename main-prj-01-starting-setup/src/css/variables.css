@@ -1,0 +1,17 @@
+:root {
+  --primary: #3d008d;
+  --secondary: #3a0061;
+  --accent: #f391e3;
+  --error: #ff5252;
+  --info: #2196f3;
+  --success: #4caf50;
+  --warning: #ffc107;
+  --light: #cccccc;
+  --dark: #424242;
+
+  --bg-hover: #270041;
+  --bg-hover-flat-button: #edd2ff;
+  --bg-frontend: var(--primary);
+  --bg-backend: #71008d;
+  --bg-career: #8d006e;
+}
