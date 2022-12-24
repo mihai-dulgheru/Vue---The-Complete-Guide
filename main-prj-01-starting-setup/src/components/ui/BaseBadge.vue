@@ -32,7 +32,6 @@ export default {
 <style scoped>
 .badge {
   border-radius: 1.875rem;
-  color: white;
   display: inline-block;
   margin-right: 0.5rem;
   padding: 0.5rem 1.5rem;

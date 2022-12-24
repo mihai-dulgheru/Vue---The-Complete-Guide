@@ -18,7 +18,7 @@
 header {
   width: 100%;
   height: 5rem;
-  background-color: var(--primary);
+  background-color: var(--dark);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,7 +26,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: var(--accent);
+  color: white;
   display: inline-block;
   padding: 0.75rem 1.5rem;
   border: 1px solid transparent;
@@ -35,7 +35,7 @@ header a {
 a:active,
 a:hover,
 a.router-link-active {
-  border: 1px solid var(--accent);
+  border: 1px solid white;
 }
 
 h1 {
