@@ -26,7 +26,7 @@ export default {
     to: {
       type: String,
       required: false,
-      default: '/',
+      default: '/coaches',
     },
   },
 };
@@ -38,7 +38,8 @@ a {
   background-color: var(--primary);
   border-radius: 1.875rem;
   border: 1px solid var(--primary);
-  color: #080808;
+  /* color: #080808; */
+  color: white;
   cursor: pointer;
   display: inline-block;
   font: inherit;
@@ -74,6 +75,7 @@ button:active {
 .outline:active {
   background-color: var(--primary);
   border-color: var(--primary);
-  color: #080808;
+  /* color: #080808; */
+  color: white;
 }
 </style>
