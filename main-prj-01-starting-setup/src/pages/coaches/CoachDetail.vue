@@ -50,7 +50,7 @@ export default {
       return this.selectedCoach.hourlyRate.toFixed(2);
     },
     contactLink() {
-      return `${this.$route.path}/${this.id}/contact`;
+      return `/coaches/${this.id}/contact`;
     },
     areas() {
       return this.selectedCoach.areas;
